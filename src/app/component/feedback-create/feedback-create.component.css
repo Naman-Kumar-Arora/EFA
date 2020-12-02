@@ -1,0 +1,34 @@
+.event_input{
+    background-color:orangered;
+    margin:0;
+    padding:20px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.event_input p{
+    display:inline-block;
+    color:white;
+    padding-right: 10px;
+    font-size: 150%;
+}
+.event_input input{
+    border-radius: 18px;
+    border:solid;
+    padding: 10px; 
+    outline: none;
+}
+.event_feedback input{
+    width:500px;
+}
+.event_input button{
+    outline: none;
+    border-radius: 25%;
+    background-color: darkorchid;
+    color:white;
+    cursor: pointer;
+}
+
+mat-toolbar{
+    justify-content: center;
+    font-size:50px;
+}
